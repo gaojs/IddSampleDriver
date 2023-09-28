@@ -1,18 +1,20 @@
-License MIT and CC0 or Public Domain (for changes I made, check with Microsoft for their license), whichever is least restrictive -- Use it
-
-AS IS - NO IMPLICIT OR EXPLICIT warranty This may break your computer, it didn't break mine. It runs in User Mode which means it's less likely to cause system instability like the Blue Screen of Death.
-Check out the latest release to download, or find other versions below:
-
-https://github.com/ge9/IddSampleDriver
-
-If you want me to build on this donate eth or similar here: 0xB01b6328F8Be53c852a54432bbEe630cE0Bd559a
-I now have a NEAR address: moopaloo.near
-
-Thanks to https://github.com/akatrevorjay/edid-generator for the hi-res EDID.
+---
+topic: sample
+page_type: sample
+languages:
+- cpp
+products:
+- windows
+- windows-wdk
+name: 'IddSample'
+description: "Implements a sample IddCx 1.4 driver and a sample application that instantiates a software device using it."
+statusNotificationTargets:
+- dspkdev@microsoft.com
+---
 
 # Indirect Display Driver Sample #
 
-This is a sample driver that shows how to create a Windows Indirect Display Driver using the IddCx class extension driver.
+This is a sample driver that shows how to create a Windows Indirect Display Driver using IddCx (Indirect Display Driver Class eXtension).
 
 ## Background reading ##
 
